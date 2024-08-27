@@ -1,0 +1,20 @@
+Github commands 
+
+git remote -v
+git remote add origin <remote-repository-URL>
+
+git remote -v
+
+git push origin <new-branch-name>
+
+
+// Git switch commands 
+
+git status 
+git branch <branch_name>
+git checkout <branch_name>
+git add .
+git commit - m "_____"
+git push origin -u <branch_name>
+
+configure with the help of git graph 

@@ -1,0 +1,42 @@
+
+.outer-div {
+  padding: 20px;
+  /* background-color: antiquewhite; */
+  
+  /* border: 1px solid black; */
+}
+
+/* Flex container for buttons with wrapping */
+.button-container {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+/* Styling for individual buttons with flex properties */
+.button-container button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #63696e;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  flex: 1 2 auto; 
+}
+
+/* Hover effect for buttons with a scale animation */
+.button-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+/* Styling for the hover message */
+.hover-message {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #333;
+  font-weight: bold;
+}
